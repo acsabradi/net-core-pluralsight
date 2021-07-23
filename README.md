@@ -9,3 +9,4 @@
 
 - Az adatbázis és a DbContext beállítása után migrálni kell az adatbázist ezzel a paranccsal: `dotnet ef migrations add <migráció neve> -s <startup projekt relatív elérési útvonala>`. A parancs létrehoz egy Migrations mappát, ami az adatbázis beállításait tartalmazza.
 - A migráció után létrehozzuk az adatbázis táblát: `dotnet ef database update -s <startup projekt>`.
+- Scaffolding (állványozás) segítségével legenerálhatóak a CRUD műveleteket kiszolgáló Razor oldalak, részletek [itt](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-5.0&tabs=visual-studio).
